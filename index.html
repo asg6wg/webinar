@@ -1,1 +1,87 @@
-Hello World!
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>College Questions Answered</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<link rel="stylesheet" href="/resources/demos/style.css" />
+		<script>
+			$(function() {
+				$( "#headerAccordion" ).accordion({
+					collapsible: true, active: false, heightStyle:"content"
+					});
+				});
+		</script>
+
+		<style>
+			body {
+				background-color: #7CBDEB;
+				font-size: 14px;
+				font-family:sans-serif;
+				}
+
+			h1 {
+				font-size: 20px;
+			}
+
+			h3 {
+				font-size:18px;
+			}
+
+			footer {
+				float:left;
+			}
+
+			footer ul li {
+				display:inline-block;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="headerInfo">
+			<h1>College Questions Answered</h1>
+
+<!-- Datepicker -->
+			<div id="headerAccordion">
+				<h3>About Us</h3>
+					<div>
+						<p>We are two students from UVA focused on answering hard-hitting questions that young students want to now about. We bring you answers from real students that have gone or are going through the issues that you may face in college. We will have webinars on those issues that people are most interested in.</p>
+						<p>Some example issues we may tackle:</p>
+						<ul>
+						  <li>Educational</li>
+						    <ul>
+						      <li>Should you apply to every college when you have a low GPA.</li>
+						    </ul>
+					    <Li>Financial</Li>
+					      <ul>
+						      <li>How to have fun at college on a budget.</li>
+						    </ul>
+					    <li>Health</li>
+					      <ul>
+						      <li>How to handle pregnancy and college simultaneously.</li>
+						    </ul>
+					    <li>Social</li>
+					      <ul>
+						      <li>How to handle peer pressure to drink in college.</li>
+						    </ul>
+						</ul>
+					</div>
+				<h3>Topic Poll</h3>
+					<div>
+						<p>If you are interested in any of these areas, please selected all that you would like to know more about.</p>
+						<form method="post" action="http://poll.pollcode.com/59175369"><table border="0" width="197" bgcolor="EEEEEE" cellspacing="2" cellpadding="0"><tr><td colspan="2"><font face="Verdana" size="2" color="000000"><b>What topics do you want to learn more about?</b></font></td></tr><tr><td width="5"><input type="checkbox" name="answer" value="1" id="59175369answer1"></td><td><font face="Verdana" size="2" color="000000"><label for="59175369answer1">Educational</label></font></td></tr><tr><td width="5"><input type="checkbox" name="answer" value="2" id="59175369answer2"></td><td><font face="Verdana" size="2" color="000000"><label for="59175369answer2">Financial</label></font></td></tr><tr><td width="5"><input type="checkbox" name="answer" value="3" id="59175369answer3"></td><td><font face="Verdana" size="2" color="000000"><label for="59175369answer3">Health</label></font></td></tr><tr><td width="5"><input type="checkbox" name="answer" value="4" id="59175369answer4"></td><td><font face="Verdana" size="2" color="000000"><label for="59175369answer4">Social</label></font></td></tr><tr><td colspan=2><center><input type="submit" value=" Vote ">&nbsp;&nbsp;<input type="submit" name="view" value=" View "></center></td></tr><tr><td colspan=2 align=right><font face="Verdana" size="1" color="000000">pollcode.com <a href="http://pollcode.com/"><font face="Verdana" size="1" color="000000">free polls</font></a>&nbsp;</font></td></tr></table></form>
+
+					</div>
+			</div>	
+		</div>
+		
+	<footer>
+		<ul>
+		     <li><a href="mailto:asg6wg@virginia.edu">contact</a></li>
+		     <li><a href="#headerInfo">top</a></li>
+		</ul>
+	</footer>
+	</body>
+</html>
